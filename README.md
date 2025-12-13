@@ -1,6 +1,6 @@
 # Network Traffic Simulator (Discrete Event Simulator)
 
-Course: CS 2336 - Computer Science II
+Course: CS 2336 - Computer Science II \\
 Semester: Spring 2024
 Project: Network Simualtion - Host Pinging
 Language: Java
