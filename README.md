@@ -2,7 +2,7 @@
 
 **Course:** CS 2336 - Computer Science II\
 **Semester:** Spring 2024\
-**Project:** Network Simualtion - Host Pinging\
+**Project:** Network Simulation - Host Pinging\
 **Language:** Java
 
 ## Overview
