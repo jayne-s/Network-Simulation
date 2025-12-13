@@ -63,10 +63,10 @@ The simulation is event-driven and processes events strictly in time order, clos
 
 ## Sample Input
 ```
-5\
-6 2\
-7 3\
--1\
+5
+6 2
+7 3
+-1
 5 7 10 28
 ```
 * First number is the central host address
@@ -76,12 +76,12 @@ The simulation is event-driven and processes events strictly in time order, clos
 
 ## Sample Output
 ```
-[10ts] Host 5: Sent ping to host 7\
-[13ts] Host 7: Ping request from host 5\
-[16ts] Host 5: Ping response from host 7 (RTT = 6ts)\
-[20ts] Host 5: Sent ping to host 7\
-[23ts] Host 7: Ping request from host 5\
-[26ts] Host 5: Ping response from host 7 (RTT = 6ts)\
+[10ts] Host 5: Sent ping to host 7
+[13ts] Host 7: Ping request from host 5
+[16ts] Host 5: Ping response from host 7 (RTT = 6ts)
+[20ts] Host 5: Sent ping to host 7
+[23ts] Host 7: Ping request from host 5
+[26ts] Host 5: Ping response from host 7 (RTT = 6ts)
 [28ts] Host 5: Stopped sending pings
 ```
 * ```ts```= simulation time units
