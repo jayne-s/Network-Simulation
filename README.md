@@ -62,6 +62,17 @@ The simulation is event-driven and processes events strictly in time order, clos
   * Continue until no events remain 
 
 ## Sample Input
+```
+5\
+6 2\
+7 3\
+-1\
+5 7 10 28
+```
+* First number is the central host address
+* Following lines are of the format: ```<neighbor address> <distance>```
+* -1 terminates list of neighbors
+* Following lines are of the format: ```<source> <destination> <interval> <duration>```
 
 ## Sample Output
 ```
@@ -73,13 +84,14 @@ The simulation is event-driven and processes events strictly in time order, clos
 [26ts] Host 5: Ping response from host 7 (RTT = 6ts)\
 [28ts] Host 5: Stopped sending pings
 ```
+* ```ts```= simulation time units
+* Output ordering may differ when multiple events occur at the same time
 
 ## How to Run
 
-* Place simulation.txt in the project root directory.
-* Compile: javac *.java
-* Run: java Main
-
+* Place ```simulation.txt``` in the project root directory.
+* Compile: ```javac *.java```
+* Run: ```java Main```
 
 ## Possible Extensions
 
